@@ -57,10 +57,15 @@ Plot of prediction after seeing shuffled inputs:
 ![image](https://github.com/erfan-golshan/ordinary-differential-equation-with-neural-network/assets/129675348/f004f8b4-c01e-4aa3-b114-8f4fd35e6f27)
 
 And the last problem is this:
+
 dy/dx + 2y = 2x**2 + 6x +2 , y(0) = 0.0
+
 with the exact answer of
+
 y = x**2 + 2*x
+
 plot of loss for ordered data
+
 
 ![image](https://github.com/erfan-golshan/ordinary-differential-equation-with-neural-network/assets/129675348/6fa82f8c-79aa-4947-8819-a79636daa73f)
 
@@ -69,7 +74,9 @@ and the prediction is
 ![image](https://github.com/erfan-golshan/ordinary-differential-equation-with-neural-network/assets/129675348/1878f93d-f825-4f45-ab85-9ec31f755583)
 
 which is somehow similar to the exact solution
+
 but now we use shuffled data
+
 the loss plot is
 
 ![image](https://github.com/erfan-golshan/ordinary-differential-equation-with-neural-network/assets/129675348/2643f9b8-1fd1-499d-bbdc-6d67e7b60e89)
